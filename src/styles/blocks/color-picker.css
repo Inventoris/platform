@@ -3,14 +3,14 @@
   display: inline-block;
   width: 10px;
   height: 10px;
-  margin: inherit;
+  margin: var(--color-picker-margin);
   background-color: var(--color-picker);
 }
 
 .color-picker__internal {
-  margin: 0 2px;
+  --color-picker-margin: 0 2px;
 }
 
 .color-picker__external {
-  margin-right: 2px;
+  --color-picker-margin: 0 2px 0 0;
 }
